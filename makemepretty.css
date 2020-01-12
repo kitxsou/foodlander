@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+
+
+* { /*Style Reset*/
+  margin: 0;
+  padding: 0;
+}
+
+.pictures {
+  padding-top: 20px;
+}
+.margin-right {
+margin-right: 50px;
+}
+
+.instructions>li {
+  text-align: left;
+  color: rgb(153, 81, 88);
+}
+
+.instructions{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+
+
+.bullet-points>li {
+  text-align: left;
+  color: rgb(153, 81, 88)
+
+}
+
+.bullet-points{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.about-me-text {
+  width: 1000px; 
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(153, 81, 88)
+
+}
+
+.header {
+  color: rgb(209, 157, 122);
+  background-color: rgb(255, 233, 233);
+  margin-bottom: 10px;
+  padding:20px;
+}
+
+
+body {
+  background: rgb(241, 206, 199);
+  font-size: 20px;
+  font-family: Inconsolata, serif;
+  text-align: center;
+}
+
+.content{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.navbar {
+  text-align: left;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(255, 233, 233);
+}
+
+.navbar > li {
+  display: inline;
+}
+
+h3 {
+  color: rgb(134, 72, 77);
+  font-size: 30px;
+}
+
+.navbar > li >  a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar > li > a:hover:not(.active) {
+  background-color: rgb(189, 112, 112);
+}
+
+.active {
+  background-color: rgb(189, 112, 112);
+}
+
+footer {
+  background: rgb(204, 147, 153);
+  color: rgb(170, 77, 74);
+}
+
+img {
+  height: 350px;
+}
+
+.margin-top{
+  margin-top: 40px;
+}
+
+hr{
+border: none;
+height:10px;
+background-color: rgb(255, 233, 233);
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.artworks {
+  margin-top: 40px;
+} 
